@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    build: web
+    image: odin_website
+    container_name: odin_website
+    restart: unless-stopped
+    ports:
+      - "3005:3005"
+    networks:
+      - app-network
+
+networks: 
+  app-network:
+    name: web-network
+    driver: bridge

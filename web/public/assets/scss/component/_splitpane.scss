@@ -1,0 +1,46 @@
+.Resizer.vertical {
+    cursor: col-resize;
+    width: 11px !important;
+    margin: 0 -5px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgba(255, 255, 255, 0);
+}
+.SplitPane .Pane > div:nth-child(2) {
+    display: flex !important;
+}
+// .SplitPane.vertical {
+//     @media (min-width: 768px) {
+//         height: 90%;
+//     }
+//     @media (min-width: 1024px) {
+//         height: 88%;
+//     }
+//     @media (min-width: 1280px) and (max-width: 1339px) {
+//         height: 84%;
+//     }
+//     @media (min-width: 1440px) {
+//         height: 87%;
+//     }
+//     @media (min-width: 1536px) {
+//         height: 89%;
+//     }
+//     .Pane.vertical{
+//         margin-bottom: 40px;
+//         @media (min-width: 1440px) {
+//             margin-bottom: 70px;
+//         }
+//     }
+// }
+
+// .SplitPane.horizontal {
+//     height: 90%;
+//     & .Pane.horizontal:first-child {
+//         margin-bottom: 0;
+//     }
+// }
+// .Pane.horizontal {
+//     margin-bottom: 50px;
+//     @media (min-width: 390px) and (max-width: 819px) {
+//         margin-bottom: 40px;
+//     }
+// }

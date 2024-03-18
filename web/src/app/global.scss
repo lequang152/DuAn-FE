@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #005e12;
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: none;
+}
+
+@import '~bootstrap/scss/bootstrap';
+@import '../../public/assets/scss/main';
+// @import '../../node_modules/react-accessible-accordion/dist/fancy-example.css';

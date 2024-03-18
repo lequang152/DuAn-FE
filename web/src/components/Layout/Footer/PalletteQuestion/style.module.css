@@ -1,0 +1,14 @@
+.highlight {
+    background-color: #c4f3dd;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+.btn-success:active {
+  background-color: #146c43;
+  border-color: #13653f;
+}

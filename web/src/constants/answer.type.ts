@@ -1,0 +1,5 @@
+export type AnswerType = { 
+
+    answer: {}
+
+}

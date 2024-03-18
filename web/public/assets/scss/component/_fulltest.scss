@@ -1,0 +1,73 @@
+@use "../abstract" as *;
+.fulltest {
+    &__section {
+        &-left {
+            & .left-title {
+                & p {
+                    text-align: center;
+                    margin-bottom: 0;
+                    & span {
+                        font-size: 3rem;
+                        color: $green-1;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            & .left-desc {
+                & h2 {
+                    color: $grey-9;
+                    margin-bottom: 5%;
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                & p {
+                    color: black;
+                }
+            }
+            & div {
+                & div {
+                    & h3 {
+                        font-weight: 600;
+                        padding-bottom: 2em;
+                        color: black;
+                        & span {
+                            font-size: x-large !important;
+                        }
+                    }
+                    & table {
+                        margin: 0 !important;
+                    }
+                    & p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &-left::-webkit-scrollbar-thumb {
+            background: #005e12;
+            width: 5px !important;
+            height: 5px !important;
+            border-radius: 10px;
+            // margin-right: 20px;
+        }
+        &-right {
+            & .question__title {
+                & .title-text {
+                    & p {
+                        margin-bottom: 0;
+                        color: black;
+                    }
+                }
+            }
+        }
+        &-right::-webkit-scrollbar-thumb {
+            background: #005e12;
+            width: 5px !important;
+            height: 5px !important;
+            border-radius: 10px;
+        }
+    }
+}
+.toast-position {
+    top: 8rem !important;
+}

@@ -1,0 +1,41 @@
+@use "../abstract" as *;
+
+/*----------------------------------------*/
+/*  23. ERROR CSS START
+/*----------------------------------------*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.error {
+    &__title {
+        font-size: 55px;
+        line-height: 0.9;
+        margin-bottom: 10px;
+        @media #{$sm} {
+            font-size: 50px;
+        }
+        @media #{$xs} {
+            font-size: 37px;
+        }
+    }
+    &__content {
+        & p {
+            font-size: 20px;
+            color: $e-text-4;
+            margin-bottom: 45px;
+        }
+        padding: 30px;
+    }
+    &__thumb {
+        & img {
+            @media #{$sm} {
+                width: 100%;
+            }
+            @media #{$xs} {
+                width: 100%;
+            }
+        }
+    }
+}

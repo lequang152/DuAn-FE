@@ -1,0 +1,13 @@
+.round-index {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+  flex: 1 !important;
+}
+
+@media screen and (max-width: 992px) {}

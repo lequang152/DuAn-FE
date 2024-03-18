@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.container {
+  max-width: 500px;
+  margin: 20px;
+  position: relative;
+}
+
+.container .progressbar-container {
+  position: relative;
+  width: 200px;
+  height: 20px;
+  border: 1px solid #11eb1c;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #fdf6bd;
+
+}
+
+.container .progressbar-container .progressbar-complete {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 100%;
+  background-color: #0ad703;
+  border-radius: 4px;
+  animation: g 2500ms infinite ease-in-out;
+  z-index: 2;
+
+}
+
+.container .progressbar-container .progressbar-complete .progressbar-liquid {
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  animation: g 2500ms infinite ease-in-out, r 3000ms infinite cubic-bezier(0.5, 0.5, 0.5, 0.5);
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  border-radius: 40%;
+}
+
+.container .progressbar-container .progress {
+  z-index: 2;
+  color: rgb(9, 9, 9);
+}
+
+.container h1 {
+  text-align: center;
+}
+
+@keyframes g {
+  0% {
+    background-color: #1eb618;
+  }
+
+  50% {
+    background-color: #93dd3e;
+  }
+
+  100% {
+    background-color: #1eb618;
+  }
+}
+
+@keyframes r {
+  from {
+    transform: rotate(0deg);
+  }
+
+  from {
+    transform: rotate(360deg);
+  }
+}

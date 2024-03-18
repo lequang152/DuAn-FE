@@ -1,0 +1,14 @@
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcm5hbWUiOiJvZGludGVzdEBhY2FkZW15LmNvbSIsImxhbmciOiJlbl9VUyIsInBhcnRuZXJJZCI6NDEsImlhdCI6MTY5MjYyODYyMCwiZXhwIjoxNjkyNjI5NTIwfQ.b0eOpF6q82ZJANT5DI88D82J2NB94Zz_jkiLhOs7-MY",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcm5hbWUiOiJvZGludGVzdEBhY2FkZW15LmNvbSIsImxhbmciOiJlbl9VUyIsInBhcnRuZXJJZCI6NDEsImlhdCI6MTY5MjYyODYyMCwiZXhwIjoyMDA3OTg4NjIwfQ.vYtV2IHdwcJN9yb7_gX_myqPOZrAoIiErPhVOgSYle4",
+    "tokenExpires": 1692629520397,
+    "user": {
+        "active": true,
+        "id": 8,
+        "username": "odintest@academy.com",
+        "signature": "<p data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\">odin_test</p>",
+        "share": false,
+        "isPublicUser": false
+    },
+    "isAuthenticated": true
+}

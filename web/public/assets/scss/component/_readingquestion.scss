@@ -1,0 +1,21 @@
+body > #tooltip {
+    transition: all;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 8px;
+    background-color: red;
+    font-size: 10px;
+}
+body > span > .popup-span > .popup {
+    transition: none;
+    & > .popupItem {
+        transition: none;
+    }
+    & > .popupItem:hover {
+        text-decoration: none;
+        color: rgba($color: white, $alpha: 0.5);
+    }
+}
+body > span > .popup-span > .popup::after {
+    display: none;
+}

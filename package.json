@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "@react-hook/window-size": "^3.1.1",
+    "axios": "^1.6.2",
+    "confetti": "^2.0.1",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^105.0.0",
+    "next-usequerystate": "^1.13.0",
+    "next-with-less": "^3.0.1",
+    "rc-drawer": "^6.5.2",
+    "re-resizable": "^6.9.11",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-media-recorder": "^1.6.6",
+    "react-mic": "^12.4.6",
+    "react-modern-drawer": "^1.2.2",
+    "react-paginate": "^8.2.0",
+    "react-particles": "^2.12.2",
+    "react-responsive-modal": "^6.4.2",
+    "react-text-transition": "^3.1.0",
+    "react-tiny-popover": "^8.0.4",
+    "rsuite": "^5.40.0",
+    "sharp": "^0.32.6",
+    "styled-components": "^6.1.1",
+    "text-selection-react": "^1.1.8",
+    "tsparticles": "^2.12.0",
+    "tsparticles-preset-fireworks": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/react-html-parser": "^2.0.6",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.3"
+  }
+}

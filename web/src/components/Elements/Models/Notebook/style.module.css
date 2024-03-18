@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@keyframes notepopup {
+    0% {
+        opacity: 0;
+
+        transform: scale(0);
+        transform: translate(0px, 30px);
+        /* transform: scale(0); */
+    }
+
+    100% {
+        opacity: 1;
+
+        transform: scale(1);
+        transform: translate(-100px, 0px);
+        /* transform: scale(1); */
+    }
+}
+
+.note-container {
+    color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.note-book {
+    padding: 10px;
+    overflow-y: scroll;
+    outline: none;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 10px;
+    background-color: #FFF;
+    width: max(500px, 60%);
+    transform: translate(-100px, 0px);
+    animation: notepopup 0.2s ease-in-out;
+    max-height: 60%;
+
+}
+
+.container {
+    position: relative;
+}

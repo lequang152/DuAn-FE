@@ -1,0 +1,863 @@
+{
+    "accessToken": "b137640d-9876-1234-abcd-344ca256531e",
+    "surveyId": 3,
+    "color": 0,
+    "description": {
+        "en_US": "<p>This small quiz will test your knowledge about our Company. Be prepared !</p>"
+    },
+    "descriptionDone": null,
+    "isATest": null,
+    "isAttemptsLimited": false,
+    "isCertitfication": false,
+    "isTimeLimited": null,
+    "timeLimit": 10,
+    "sessionCode": 6165,
+    "title": {
+        "en_US": "Quiz about our Company"
+    },
+    "userCanGoback": false,
+    "pages": [
+        {
+            "page": {
+                "questionId": 27,
+                "description": {
+                    "en_US": "<p>Some general information about you. It will be used internally for statistics only.</p>"
+                },
+                "title": {
+                    "en_US": "Who are you ?"
+                },
+                "audioFilename": null
+            },
+            "questions": [
+                {
+                    "questionId": 31,
+                    "title": {
+                        "en_US": "How old are you ?"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<p>Just to categorize your answers, don't worry.</p>"
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "numerical_box",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 5,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                },
+                {
+                    "questionId": 28,
+                    "title": {
+                        "en_US": "What is your email ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "char_box",
+                    "saveAsEmail": null,
+                    "saveAsNickName": null,
+                    "sequence": 2,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": {
+                        "en_US": "ex@mple.com"
+                    },
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                },
+                {
+                    "questionId": 30,
+                    "title": {
+                        "en_US": "Where are you from ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "char_box",
+                    "saveAsEmail": null,
+                    "saveAsNickName": null,
+                    "sequence": 4,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": {
+                        "en_US": "Brussels, Belgium"
+                    },
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                },
+                {
+                    "questionId": 29,
+                    "title": {
+                        "en_US": "What is your nickname ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "char_box",
+                    "saveAsEmail": true,
+                    "saveAsNickName": true,
+                    "sequence": 3,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": {
+                        "en_US": "Don't be shy, be wild!"
+                    },
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                }
+            ]
+        },
+        {
+            "page": {
+                "questionId": 32,
+                "description": {
+                    "en_US": "<p>Some questions about our company. Do you really know us?</p>"
+                },
+                "title": {
+                    "en_US": "Our Company in a few questions ..."
+                },
+                "audioFilename": null
+            },
+            "questions": [
+                {
+                    "questionId": 33,
+                    "title": {
+                        "en_US": "When is Mitchell Admin born ?"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<span>Our famous Leader !</span>"
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "date",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 11,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                },
+                {
+                    "questionId": 34,
+                    "title": {
+                        "en_US": "When did precisely Marc Demo crop its first apple tree ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "datetime",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 12,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                },
+                {
+                    "questionId": 35,
+                    "title": {
+                        "en_US": "Give the list of all types of wood we sell."
+                    },
+                    "constrMandatory": false,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "text_box",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 13,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": []
+                }
+            ]
+        },
+        {
+            "page": {
+                "questionId": 50,
+                "description": {
+                    "en_US": "<p>We may be interested by your input.</p>"
+                },
+                "title": {
+                    "en_US": "Your feeling"
+                },
+                "audioFilename": null
+            },
+            "questions": [
+                {
+                    "questionId": 51,
+                    "title": {
+                        "en_US": "What do you think about this survey ?"
+                    },
+                    "constrMandatory": false,
+                    "description": {
+                        "en_US": "<span>If you don't like us, please try to be as objective as possible.</span>"
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 41,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Good"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Not Good, Not Bad"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Iznogoud"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "I have no idea, I'm a dog!"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page": {
+                "questionId": 36,
+                "description": {
+                    "en_US": "<p>An apple a day keeps the doctor away.</p>"
+                },
+                "title": {
+                    "en_US": "Fruits and vegetables"
+                },
+                "audioFilename": null
+            },
+            "questions": [
+                {
+                    "questionId": 37,
+                    "title": {
+                        "en_US": "Which category does a tomato belong to"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<span>\"Red\" is not a category, I know what you are trying to do ;)</span>"
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 21,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Fruits"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Vegetables"
+                            },
+                            "answerScore": 10,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Space stations"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 38,
+                    "title": {
+                        "en_US": "Which of the following would you use to pollinate"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": true,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 22,
+                    "timeLimit": 15,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Bees"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Dogs"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Mooses"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 39,
+                    "title": {
+                        "en_US": "Select trees that made more than 20K sales this year"
+                    },
+                    "constrMandatory": false,
+                    "description": {
+                        "en_US": "<span>Our sales people have an advantage, but you can do it !</span>"
+                    },
+                    "isTimeLimited": true,
+                    "questionType": "multiple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 23,
+                    "timeLimit": 20,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Apple Trees"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Lemon Trees"
+                            },
+                            "answerScore": 10,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Baobab Trees"
+                            },
+                            "answerScore": -10,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Cookies"
+                            },
+                            "answerScore": -10,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 40,
+                    "title": {
+                        "en_US": "A \"Citrus\" could give you ..."
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": true,
+                    "questionType": "multiple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 24,
+                    "timeLimit": 20,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Pomelos"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Grapefruits"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Cosmic rays"
+                            },
+                            "answerScore": -10,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Bricks"
+                            },
+                            "answerScore": -10,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 41,
+                    "title": {
+                        "en_US": "How often should you water those plants"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "matrix",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 25,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Once a month"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Once a week"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 42,
+                    "title": {
+                        "en_US": "When do you harvest those fruits"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<span>Best time to do it, is the right time to do it.</span>"
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "matrix",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 26,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Spring"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Summer"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Autumn"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Winter"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "page": {
+                "questionId": 43,
+                "description": {
+                    "en_US": "<p>\n                We like to say that the apple doesn't fall far from the tree, so here are trees.\n            </p>\n        "
+                },
+                "title": {
+                    "en_US": "Trees"
+                },
+                "audioFilename": null
+            },
+            "questions": [
+                {
+                    "questionId": 44,
+                    "title": {
+                        "en_US": "Dogwood is from which family of trees ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 31,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Pinaceae"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Ulmaceae"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Cornaceae"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Salicaceae"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 45,
+                    "title": {
+                        "en_US": "In which country did the bonsai technique develop ?"
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 32,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Japan"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "China"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Vietnam"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "South Korea"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 46,
+                    "title": {
+                        "en_US": "Is the wood of a coniferous hard or soft ?"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<p>\n                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/coniferous.jpg\"><br>\n            </p>\n        "
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 33,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Hard"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Soft"
+                            },
+                            "answerScore": 10,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 47,
+                    "title": {
+                        "en_US": "From which continent is native the Scots pine (pinus sylvestris) ?"
+                    },
+                    "constrMandatory": true,
+                    "description": {
+                        "en_US": "<p>\n                <img class=\"img-fluid o_we_custom_image d-block mx-auto\" src=\"/survey/static/img/pinus_sylvestris.jpg\" style=\"width: 100%;\"><br>\n            </p>\n        "
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 34,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Africa"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Asia"
+                            },
+                            "answerScore": 20,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Europe"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "South America"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 48,
+                    "title": {
+                        "en_US": "In the list below, select all the coniferous."
+                    },
+                    "constrMandatory": true,
+                    "description": null,
+                    "isTimeLimited": null,
+                    "questionType": "multiple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 35,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Douglas Fir"
+                            },
+                            "answerScore": 5,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Norway Spruce"
+                            },
+                            "answerScore": 5,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "European Yew"
+                            },
+                            "answerScore": 5,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Mountain Pine"
+                            },
+                            "answerScore": 5,
+                            "valueImageFileName": null
+                        }
+                    ]
+                },
+                {
+                    "questionId": 49,
+                    "title": {
+                        "en_US": "After watching this video, will you swear that you are not going to procrastinate to trim your hedge this year ?"
+                    },
+                    "constrMandatory": null,
+                    "description": {
+                        "en_US": "<div class=\"text-center\">\n                <div class=\"media_iframe_video\" data-oe-expression=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" style=\"width: 50%;\">\n                    <div class=\"css_editable_mode_display\"></div>\n                    <div class=\"media_iframe_video_size\" contenteditable=\"false\"></div>\n                    <iframe src=\"//www.youtube.com/embed/7y4T6yv5L1k?autoplay=0&amp;rel=0\" frameborder=\"0\" contenteditable=\"false\"></iframe>\n                </div><br>\n            </div>\n        "
+                    },
+                    "isTimeLimited": null,
+                    "questionType": "simple_choice",
+                    "saveAsEmail": false,
+                    "saveAsNickName": false,
+                    "sequence": 36,
+                    "timeLimit": null,
+                    "validationLengthMax": 0,
+                    "validationLengthMin": 0,
+                    "audioFilename": null,
+                    "constrErrorMsg": null,
+                    "questionPlaceholder": null,
+                    "validationErrorMsg": null,
+                    "suggestedAnswers": [
+                        {
+                            "value": {
+                                "en_US": "Yes"
+                            },
+                            "answerScore": 10,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "No"
+                            },
+                            "answerScore": null,
+                            "valueImageFileName": null
+                        },
+                        {
+                            "value": {
+                                "en_US": "Perhaps"
+                            },
+                            "answerScore": -10,
+                            "valueImageFileName": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
