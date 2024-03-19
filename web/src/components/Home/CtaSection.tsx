@@ -7,7 +7,7 @@ const Cta: React.FC = () => {
         <main>
             <section className="cta__area mb--120">
                 <div className="container">
-                    <div className="cta__inner blue-bg fix">
+                    <div className="cta__inner purple-bg fix">
                         <div className="cta__shape">
                             <Image
                                 width={500}
@@ -22,12 +22,12 @@ const Cta: React.FC = () => {
                                     <h3 className="cta__title">Đăng kí học thử</h3>
                                     <p className="text-white text-justify">
                                         Hàng ngàn học viên đã bứt phá trên con đường học tiếng Anh của mình, và bạn cũng
-                                        có thể trở thành người tiếp theo! ODIN LANGUAGE ACADEMY cung cấp các khóa học từ
+                                        có thể trở thành người tiếp theo! ENGMASTER HUB cung cấp các khóa học từ
                                         trình độ mất gốc nền tảng (khóa học tiếng Anh siêu tốc BBST) tới những khóa
                                         tiếng Anh học thuật (IELTS, TOEIC) giúp bạn dễ dạng lựa chọn lộ trình phù hợp
-                                        với định hướng của cá nhân. Ngoài ra, ODIN còn là đối tác chính thức của Hội
+                                        với định hướng của cá nhân. Ngoài ra, HUB còn là đối tác chính thức của Hội
                                         Đồng Anh (British Council). Các bạn học viên có thể yên tâm học, thi và nhận
-                                        chứng chỉ IELTS quốc tế ngay tại ODIN LANGUAGE trong cùng một lộ trình xuyên
+                                        chứng chỉ IELTS quốc tế ngay tại ENGMASTER HUB trong cùng một lộ trình xuyên
                                         suốt, giúp tiết kiệm thời gian và đạt hiệu quả một cách nhanh nhất.
                                     </p>
                                 </div>

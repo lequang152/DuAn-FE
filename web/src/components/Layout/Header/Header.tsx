@@ -79,9 +79,9 @@ const Header = () => {
                                     <div className="logo">
                                         <Link href="/">
                                             <Image
-                                                width={500}
-                                                height={64}
-                                                src="/assets/img/logo/odin-logo-login.png"
+                                                width={100}
+                                                height={44}
+                                                src="/assets/img/logo/logo-odin.png"
                                                 alt="logo"
                                             />
                                         </Link>

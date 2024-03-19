@@ -39,7 +39,7 @@ const CarouselTab = () => {
                     </Link>
                     <div className="events__carousel-text mt-12 text-justify">
                         <span>
-                            Odin Language Academy vô cùng tự hào về sản phẩm BBST (công nghệ Anh văn siêu tốc) được ứng
+                            EngMaster Hub vô cùng tự hào về sản phẩm BBST (công nghệ Anh văn siêu tốc) được ứng
                             dụng và triển khai trên cộng đồng, đó cũng là mong muốn mà chúng tôi muốn hàng triệu người
                             Việt trên toàn quốc được làm quen, hội nhập với những phương pháp, công nghệ mà do người
                             Việt tạo ra cho người Việt sử dụng.

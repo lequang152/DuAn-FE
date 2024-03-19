@@ -9,7 +9,7 @@ const FooterBottom = () => {
                     <div className="col-xxl-12">
                         <div className="footer__copyright text-center">
                             <p>
-                                © 2023 Odin Elearning, All Rights Reserved. Design By <Link href="/">Odin team</Link>
+                                © 2024 EngMaster Hub, All Rights Reserved. Design By <Link href="/">Hub team</Link>
                             </p>
                         </div>
                     </div>
