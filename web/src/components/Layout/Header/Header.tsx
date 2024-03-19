@@ -80,8 +80,8 @@ const Header = () => {
                                         <Link href="/">
                                             <Image
                                                 width={100}
-                                                height={44}
-                                                src="/assets/img/logo/logo-odin.png"
+                                                height={64}
+                                                src="/assets/img/logo/logo-odin1.png"
                                                 alt="logo"
                                             />
                                         </Link>
