@@ -84,7 +84,7 @@ const FooterTest = ({ setPage, hasNextPage, currentPage, changeSection, isLimitS
 
     return (
         <React.Fragment>
-            <div className="px-2 text-[#005e12]  w-full h-14 bg-[#c8efc9] flex flex-row justify-between items-center z-30">
+            <div className="px-2 text-[#005e12]  w-full h-14 bg-[#cee9ff] flex flex-row justify-between items-center z-30">
                 <QuestionPalette />
 
                 <Modal

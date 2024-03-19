@@ -52,7 +52,7 @@
         @include box-shadow(0px 30px 40px 0px rgba(1, 11, 60, 0.06));
     }
     &__area {
-        background: $e-blue;
+        background: $e-blue-1;
         &.stickyy {
             position: fixed;
             top: 0;
@@ -608,7 +608,7 @@
                             right: 0;
                             width: 0;
                             height: 100%;
-                            background: $green-1;
+                            background: #506cf5;
                             z-index: -1;
                         }
                     }
@@ -806,8 +806,8 @@
             position: absolute;
             text-align: center;
             top: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            // left: 50%;
+            // transform: translateX(-50%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -847,7 +847,7 @@
                 }
             }
             &:hover {
-                width: 100px;
+                width: 70px;
                 border-radius: 0;
                 & span:first-of-type {
                     transform: translate(-50%, -150%);
@@ -956,7 +956,7 @@
     height: 100%;
     visibility: hidden;
     opacity: 0;
-    background-color: $green-1;
+    background-color: #506cf5;
     z-index: 1020;
     -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
     -moz-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);

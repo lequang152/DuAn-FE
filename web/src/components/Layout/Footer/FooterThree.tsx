@@ -18,7 +18,7 @@ const FooterThree: React.FC = () => {
                                                 <Image
                                                     width={500}
                                                     height={64}
-                                                    src="/assets/img/logo/odin-logo-login.png"
+                                                    src="/assets/img/logo/logo-odin1.png"
                                                     alt="img not found"
                                                     style={{ width: "70%" }}
                                                 />
@@ -27,8 +27,7 @@ const FooterThree: React.FC = () => {
                                     </div>
                                     <div className="footer__widget-body">
                                         <p>
-                                            Great lesson ideas and lesson plans for ESL teachers! Educators can
-                                            customize lesson plans to best.
+                                            IELTS Mock Tests: Streamlined and Focused Preparation Online
                                         </p>
 
                                         <div className="footer__social">
@@ -68,26 +67,9 @@ const FooterThree: React.FC = () => {
                                         <div className="footer__link">
                                             <ul>
                                                 <li>
-                                                    <Link href="/about">ODIN Đông Tác</Link>
+                                                    <Link href="/#">HUB Xuân Thủy</Link>
                                                 </li>
-                                                <li>
-                                                    <Link href="">ODIN Trần Quốc Vượng</Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/event-details">ODIN Nguyễn Văn Lộc</Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/instructor">ODIN Trần Đại Nghĩa</Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/instructor">ODIN Phố Vọng</Link>
-                                                </li>
-                                                {/* <li>
-                                                    <Link href="/instructor">Become a Teacher</Link>
-                                                </li> */}
-                                                {/* <li>
-                                                    <Link href="/contact">Contact</Link>
-                                                </li> */}
+
                                             </ul>
                                         </div>
                                     </div>
@@ -97,39 +79,26 @@ const FooterThree: React.FC = () => {
                                 <div className="footer__widget mb-50">
                                     <div className="footer__widget-head mb-22">
                                         <h3 className="footer__widget-title">
-                                            CTCP Phát Triển Giáo Dục và Đào Tạo ODIN
+                                            CTCP Phát Triển Giáo Dục và Đào Tạo HUB
                                         </h3>
                                     </div>
                                     <div className="footer__widget-body">
                                         <div className="footer__link">
                                             <ul>
                                                 <li>
-                                                    <Link href="/instructor">
-                                                        Số 70 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng, Thành
+                                                    <Link href="#">
+                                                        Số 144 Xuân Thủy, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành
                                                         phố Hà Nội, Việt Nam
                                                     </Link>
                                                 </li>
                                                 <br />
                                                 <li>
-                                                    <Link href="tel:024.62675555">Điện thoại: 024.62675555</Link>
-                                                </li>
-                                                <br />
-                                                <li>
-                                                    <Link href="mailto:anhdp.odin@gmail.com">
-                                                        Email: anhdp.odin@gmail.com
-                                                    </Link>
+                                                    <Link href="#">Điện thoại: 024.62675555</Link>
                                                 </li>
                                                 <br />
                                                 <li>
                                                     <Link href="#">
-                                                        Số chứng nhận ĐKKD: 0109302312 do Sở kế hoạch và đầu tư Hà Nội
-                                                        cấp.
-                                                    </Link>
-                                                </li>
-                                                <br />
-                                                <li>
-                                                    <Link href="https://www.facebook.com/dpa.paradox?comment_id=Y29tbWVudDo2NzU4MDk4MzI3NTgxODcyXzgzNzY2NDQ3MTQxNTAxNw%3D%3D">
-                                                        Người đại diện: Đào Phương Anh
+                                                        Email: admin.hub@gmail.com
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -156,7 +125,7 @@ const FooterThree: React.FC = () => {
                                                     </button>
                                                 </div>
                                             </form>
-                                            <p>Get the latest news and updates right at your inbox.</p>
+                                            <p>Receive news and updates straight to your inbox.</p>
                                         </div>
                                     </div>
                                 </div>

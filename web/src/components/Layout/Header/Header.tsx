@@ -1,52 +1,52 @@
-"use client"
-import Image from "next/image"
-import Link from "next/link"
-import React, { useEffect, useRef, useState } from "react"
-import { useDispatch, useSelector } from "react-redux"
-import { userAuthSelector } from "../../../redux/Selector/userAuthorSelector"
-import { logOut } from "../../../redux/Slice/Auth/AuthSlice"
-import BurgerMenus from "./BurgerMenus"
-import { useRouter } from "next/navigation"
-import { AppDispatch } from "../../../redux/store"
-import { ConfirmModal } from "../../Elements/Models/ConfirmModal"
-import { makeWarningToast } from "../../../utils/toast"
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useEffect, useRef, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { userAuthSelector } from '../../../redux/Selector/userAuthorSelector';
+import { logOut } from '../../../redux/Slice/Auth/AuthSlice';
+import BurgerMenus from './BurgerMenus';
+import { useRouter } from 'next/navigation';
+import { AppDispatch } from '../../../redux/store';
+import { ConfirmModal } from '../../Elements/Models/ConfirmModal';
+import { makeWarningToast } from '../../../utils/toast';
 
 const Header = () => {
-    const dispatch = useDispatch<AppDispatch>()
-    const [isShow, setIsShow] = useState<boolean>(false)
-    const [menuOpen, setMenuOpen] = useState(false)
-    const userInfo = useSelector(userAuthSelector)
-    const headerRef = useRef<HTMLDivElement>(null)
-    const router = useRouter()
+    const dispatch = useDispatch<AppDispatch>();
+    const [isShow, setIsShow] = useState<boolean>(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+    const userInfo = useSelector(userAuthSelector);
+    const headerRef = useRef<HTMLDivElement>(null);
+    const router = useRouter();
 
     const clearLocal = () => {
-        localStorage.clear()
-        dispatch(logOut())
-        makeWarningToast("Signed out!")
-        router.push("/sign-in")
-    }
+        localStorage.clear();
+        dispatch(logOut());
+        makeWarningToast('Signed out!');
+        router.push('/sign-in');
+    };
 
     const sigOutHandler = () => {
-        setIsShow(true)
-    }
+        setIsShow(true);
+    };
     const closeModal = () => {
-        setIsShow(false)
-    }
+        setIsShow(false);
+    };
     // console.log("use Info", userInfo)
 
     const sticky = (e: Event) => {
-        const header = headerRef.current
-        const scrollTop = window.scrollY
-        scrollTop >= 1 ? header?.classList.add("sticky") : header?.classList.remove("sticky")
-    }
+        const header = headerRef.current;
+        const scrollTop = window.scrollY;
+        scrollTop >= 1 ? header?.classList.add('sticky') : header?.classList.remove('sticky');
+    };
 
     useEffect(() => {
-        window.addEventListener("scroll", sticky)
+        window.addEventListener('scroll', sticky);
         return () => {
-            window.removeEventListener("scroll", sticky)
-        }
+            window.removeEventListener('scroll', sticky);
+        };
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    }, []);
 
     return (
         <React.Fragment>
@@ -80,8 +80,8 @@ const Header = () => {
                                         <Link href="/">
                                             <Image
                                                 width={100}
-                                                height={44}
-                                                src="/assets/img/logo/logo-odin.png"
+                                                height={64}
+                                                src="/assets/img/logo/logo-odin1.png"
                                                 alt="logo"
                                             />
                                         </Link>
@@ -104,7 +104,7 @@ const Header = () => {
                                                             <li>
                                                                 <Link href="/survey/survey-list">Full Test</Link>
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <Link
                                                                     href="/survey/survey-details/random"
                                                                     onClick={() => {
@@ -140,7 +140,7 @@ const Header = () => {
                                                             </li>
                                                             <li>
                                                                 <Link href='/'>Test With Code</Link>
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </li>
                                                 </ul>
@@ -155,15 +155,12 @@ const Header = () => {
                                     </div>
                                     {userInfo.isAuthenticated ? (
                                         <div className="header__btn ml-5 d-none d-sm-block">
-                                            <Link
-                                                href="/"
-                                                className="e-btn"
-                                            >
+                                            <Link href="/" className="e-btn">
                                                 {userInfo.user?.username}
                                             </Link>
                                             <Link
                                                 onClick={() => {
-                                                    sigOutHandler()
+                                                    sigOutHandler();
                                                 }}
                                                 href=""
                                             >
@@ -172,10 +169,7 @@ const Header = () => {
                                         </div>
                                     ) : (
                                         <div className="header__btn ml-5 d-none d-sm-block">
-                                            <Link
-                                                href="/sign-in"
-                                                className="e-btn"
-                                            >
+                                            <Link href="/sign-in" className="e-btn">
                                                 Sign-in
                                             </Link>
                                             <Link href="/sign-up">Sign-up</Link>
@@ -186,7 +180,7 @@ const Header = () => {
                                             className="sidebar-toggle-btn ml-30"
                                             id="sidebar-toggle"
                                             onClick={() => {
-                                                setMenuOpen(!menuOpen)
+                                                setMenuOpen(!menuOpen);
                                             }}
                                         >
                                             <span className="line"></span>
@@ -200,17 +194,14 @@ const Header = () => {
                     </div>
                 </div>
 
-                <BurgerMenus
-                    menuOpen={menuOpen}
-                    setMenuOpen={setMenuOpen}
-                />
+                <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
                 {/* <div
                     onClick={() => setMenuOpen(false)}
                     className={menuOpen ? "body-overlay show" : "body-overlay"}
                 ></div> */}
             </header>
         </React.Fragment>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

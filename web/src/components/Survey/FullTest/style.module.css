@@ -19,7 +19,7 @@
 
 .popup {
     height: calc(100vh - 80px);
-    background: linear-gradient(to right, #edf1e8, #e0efe0);
+    background: #e5f3ff;
     overflow: auto;
     display: flex;
 }

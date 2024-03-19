@@ -19,16 +19,15 @@ const Cta: React.FC = () => {
                         <div className="row align-items-center">
                             <div className="col-xxl-7 col-xl-7 col-lg-8 col-md-8">
                                 <div className="cta__content">
-                                    <h3 className="cta__title">Đăng kí học thử</h3>
+                                    <h3 className="cta__title">Đăng ký Luyện Đề</h3>
                                     <p className="text-white text-justify">
-                                        Hàng ngàn học viên đã bứt phá trên con đường học tiếng Anh của mình, và bạn cũng
-                                        có thể trở thành người tiếp theo! ENGMASTER HUB cung cấp các khóa học từ
-                                        trình độ mất gốc nền tảng (khóa học tiếng Anh siêu tốc BBST) tới những khóa
-                                        tiếng Anh học thuật (IELTS, TOEIC) giúp bạn dễ dạng lựa chọn lộ trình phù hợp
-                                        với định hướng của cá nhân. Ngoài ra, HUB còn là đối tác chính thức của Hội
-                                        Đồng Anh (British Council). Các bạn học viên có thể yên tâm học, thi và nhận
-                                        chứng chỉ IELTS quốc tế ngay tại ENGMASTER HUB trong cùng một lộ trình xuyên
-                                        suốt, giúp tiết kiệm thời gian và đạt hiệu quả một cách nhanh nhất.
+                                        Tham gia cùng hàng nghìn học viên đã làm chủ nghệ thuật ngôn ngữ tại ENGMASTER HUB,
+                                        nơi bạn có thể trở thành người tiếp theo tỏa sáng trên hành trình chinh phục tiếng Anh.
+                                        Cung cấp một loạt bài thi thử từ cơ bản đến nâng cao, chúng tôi đồng hành cùng bạn từ
+                                        những bước đầu tiên đến chạm ngõ các kỳ thi IELTS, TOEIC, giúp bạn tinh chỉnh lộ trình học tập
+                                        theo mục tiêu riêng. Là đối tác chiến lược của Hội Đồng Anh, ENGMASTER HUB còn mang đến cơ
+                                        hội thử sức với các đề thi IELTS chính thống, giúp bạn làm quen với format thi, tích lũy kinh
+                                        nghiệm và tự tin đạt chứng chỉ quốc tế mà không cần rời khỏi hệ thống của chúng tôi.
                                     </p>
                                 </div>
                             </div>

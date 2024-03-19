@@ -128,7 +128,7 @@ a {
         }
     }
     &__title:hover {
-        color: green;
+        color: #2b56b9;
     }
     &__title {
         font-size: 20px;
@@ -518,7 +518,7 @@ a {
             color: $black;
 
             &:hover {
-                color: $e-green;
+                color: #2196f3;
             }
         }
     }
@@ -700,7 +700,7 @@ a {
                         margin: 0px !important;
 
                         & .nav-link {
-                            background: $green-1;
+                            background: #f59200;
                             color: $white;
                         }
                     }
@@ -1559,7 +1559,7 @@ a {
                     i {
                         transform: translateY(0px);
                         display: inline-block;
-                        color: $green-1;
+                        color: #03a9f4;
                         margin-right: 5px;
                     }
 

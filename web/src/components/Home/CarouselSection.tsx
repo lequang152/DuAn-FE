@@ -12,21 +12,21 @@ const CarouselTab = () => {
     return (
         <section className="events__area pt-50 pb-50 mb-50 p-relative">
             <div className="events__shape">
-                <Image
+                {/* <Image
                     width={500}
                     height={500}
                     className="events-1-shape"
                     src="/assets/img/events/events-shape.png"
                     alt="img not found"
-                />
+                /> */}
             </div>
             <div className="container events__carousel">
                 <div className="events__carousel-content">
-                    <span className="events__carousel-description sm:text-center  lg:text-left">
-                        Trung tâm ngoại ngữ
+                    {/* <span className="events__carousel-description sm:text-center  lg:text-left">
+                        Website thi thử tiếng anh
                     </span>
-
-                    <Link
+                    <hr></hr> */}
+                    {/* <Link
                         href="/"
                         className="events__carousel-logo pb-5 pr-5 mt-10"
                     >
@@ -36,13 +36,10 @@ const CarouselTab = () => {
                             src="/assets/img/logo/odin-logo-login.png"
                             alt="img not found"
                         />
-                    </Link>
-                    <div className="events__carousel-text mt-12 text-justify">
+                    </Link> */}
+                    <div className="events__carousel-text text-justify">
                         <span>
-                            EngMaster Hub vô cùng tự hào về sản phẩm BBST (công nghệ Anh văn siêu tốc) được ứng
-                            dụng và triển khai trên cộng đồng, đó cũng là mong muốn mà chúng tôi muốn hàng triệu người
-                            Việt trên toàn quốc được làm quen, hội nhập với những phương pháp, công nghệ mà do người
-                            Việt tạo ra cho người Việt sử dụng.
+                            EngMaster Hub tự hào là nền tảng chuyên cung cấp các bài thi thử tiếng Anh tiêu chuẩn, phục vụ nhu cầu luyện thi và nâng cao kỹ năng ngôn ngữ cho cộng đồng. Sản phẩm của chúng tôi, được phát triển bởi người Việt, cho phép người học trải nghiệm và thực hành qua các phương pháp đào tạo hiện đại, tiên tiến, hỗ trợ họ hội nhập và thành công trên bình diện quốc tế với trình độ tiếng Anh chắc chắn.
                         </span>
                     </div>
                     <Link
@@ -58,7 +55,6 @@ const CarouselTab = () => {
                         onSelect={handleSelect}
                     >
                         <Carousel.Item className="w-full">
-                            {/* <ExampleCarouselImage text="First slide" /> */}
                             <Image
                                 width={500}
                                 height={500}
@@ -67,9 +63,25 @@ const CarouselTab = () => {
                                 alt={""}
                             />
                         </Carousel.Item>
-
                         <Carousel.Item className="w-full">
-                            {/* <ExampleCarouselImage text="Third slide" /> */}
+                            <Image
+                                width={500}
+                                height={500}
+                                src="/assets/img/carousel/odin-new-bbst-header-banner-1024x538.jpg"
+                                alt={""}
+                                priority
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="w-full">
+                            <Image
+                                width={500}
+                                height={500}
+                                src="/assets/img/carousel/odin-tuyen-dung-cong-tac-vien-1024x576.jpg"
+                                alt={""}
+                                priority
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item className="w-full">
                             <Image
                                 width={500}
                                 height={500}

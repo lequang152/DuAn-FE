@@ -452,14 +452,14 @@ p {
     line-height: 52px;
     text-align: center;
     padding: 0 25px;
-    color: $white;
-    background: $red-1;
+    color: $black;
+    background: $e-yellow-1;
     @include border-radius(4px);
     font-weight: 500;
     // @include sentence-case();
 
     &:hover {
-        color: $white;
+        color: $black;
         transform: scale(0.9);
         @include box-shadow(0px 5px 5px 0px rgba(4, 23, 118, 0.3));
     }

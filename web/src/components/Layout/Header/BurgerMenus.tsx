@@ -68,7 +68,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                 <div className="sidebar__content">
                     <div className="logo mb-40">
                         <Link href="/">
-                            <Image src="/assets/img/logo/odin-logo-square.png" alt="logo" width={300} height={339} />
+                            <Image src="/assets/img/logo/logo-odin1.png" alt="logo" width={300} height={339} />
                         </Link>
                     </div>
                     <div className="mm-menu">
@@ -83,7 +83,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                                         <li>
                                             <Link href="/survey/survey-list">Full Test</Link>
                                         </li>
-                                        <li className={random ? 'has-droupdown active' : 'has-droupdown'}>
+                                        {/* <li className={random ? 'has-droupdown active' : 'has-droupdown'}>
                                             <a
                                                 onClick={() => {
                                                     openMobileMenu('random');
@@ -108,7 +108,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                                                     <Link href="/coming-soon">Writing Test</Link>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                         <li>
                                             <Link

@@ -19,6 +19,7 @@ import { ConfirmModal } from '../../Elements/Models/ConfirmModal';
 import { current } from '@reduxjs/toolkit';
 import { Pagination } from '../../Elements/Pagination';
 import { ApiService } from '../../../utils/api_service';
+import { logOut } from '../../../redux/Slice/Auth/AuthSlice';
 const SurveyListMain: React.FC = () => {
     const route = useRouter();
     const [survey, setSurvey] = useState<any>(null!);
@@ -86,15 +87,37 @@ const SurveyListMain: React.FC = () => {
             })
             .catch((error) => {
                 try {
-                    if (error.response.data.statusCode == 403) {
-                        makeErrorToast('You are not allowed to access this page.');
+                    if (error.response.data.statusCode == 403 || error.response.data.statusCode == 401) {
+                        ApiService.refreshToken()
+                            .then((res) => {
+                                const accessToken = localStorage.getItem('TOKEN');
+                                const newHeader = {
+                                    Authorization: `Bearer ${accessToken}`,
+                                };
+                                const reGetSurveyList = ApiService.getSurveyList(page, newHeader);
+                                reGetSurveyList
+                                    .then(async (response) => {
+                                        setSurvey(response.data);
+                                    })
+                                    .catch((error) => {
+                                        makeErrorToast('You are not allowed to access this page.');
+                                        dispatch(logOut());
+                                        route.push('/sign-in');
+                                    });
+                            })
+                            .catch((err) => {
+                                makeErrorToast('Cannot refresh, please Login again.');
+                                dispatch(logOut());
+                                route.push('/sign-in');
+                            });
                     } else {
                         makeErrorToast('An error has occurred, please contact the administrator for more information.');
+                        route.push('/');
                     }
                 } catch (err) {
                     makeErrorToast('An error has occurred, please contact the administrator for more information.');
+                    route.push('/');
                 }
-                route.push('/');
             });
 
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -180,14 +203,14 @@ const SurveyListMain: React.FC = () => {
                                                                     <div className="course__content course__content-3 ">
                                                                         <div className="course__meta d-flex align-items-center">
                                                                             <div className="course__lesson mr-20 flex flex-row justify-center gap-2 items-center">
-                                                                                <MenuBookIcon className="text-green-1" />
+                                                                                <MenuBookIcon className="text-[#2196f3]" />
                                                                                 <span className="flex flex-row  justify-center">
                                                                                     {' '}
                                                                                     {item.numberOfQuestions} questions
                                                                                 </span>
                                                                             </div>
                                                                             <div className="course__rating flex flex-row  justify-center gap-2 items-center">
-                                                                                <AccessAlarmIcon className="text-yellow-1" />
+                                                                                <AccessAlarmIcon className="text-[#ff9800]" />
                                                                                 <span className="flex flex-row  justify-center">
                                                                                     {item.isTimeLimited
                                                                                         ? item.timeLimit + ' minutes'

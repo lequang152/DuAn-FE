@@ -89,7 +89,7 @@ const HeaderTest = ({
                 <Image
                     width={500}
                     height={64}
-                    src="/assets/img/logo/logo-with-blackText.png"
+                    src="/assets/img/logo/logo-odin1.png"
                     alt="logo"
                     style={{ height: '100%', width: 'auto' }}
                 />,
@@ -99,7 +99,7 @@ const HeaderTest = ({
                 <Image
                     width={500}
                     height={64}
-                    src="/assets/img/logo/odin-logo-square.png"
+                    src="/assets/img/logo/logo-odin1.png"
                     alt="logo"
                     style={{ height: '100%', width: 'auto' }}
                 />,
@@ -215,7 +215,7 @@ const HeaderTest = ({
                 />
             )}
             <div
-                className={`z-30 px-4 py-3 bg-[#c8efc9] w-screen h-16  flex flex-row items-center box-border justify-between`}
+                className={`z-30 px-4 py-3 bg-[#cee9ff] w-screen h-16  flex flex-row items-center box-border justify-between`}
             >
                 <Link
                     href=""
