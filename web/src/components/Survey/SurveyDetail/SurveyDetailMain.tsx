@@ -154,7 +154,7 @@ const SurveyDetailMain = ({ idSurveyDetails }: PropsSurvey) => {
                                     className="rounded"
                                     width={1024}
                                     height={576}
-                                    src="/assets/img/carousel/trung-tam-tieng-anh-odin-1024x576.jpg"
+                                    src="/assets/img/carousel/quiz.png"
                                     alt="img not found"
                                 />
                             </div>

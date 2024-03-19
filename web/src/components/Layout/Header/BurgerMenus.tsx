@@ -83,7 +83,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                                         <li>
                                             <Link href="/survey/survey-list">Full Test</Link>
                                         </li>
-                                        <li className={random ? 'has-droupdown active' : 'has-droupdown'}>
+                                        {/* <li className={random ? 'has-droupdown active' : 'has-droupdown'}>
                                             <a
                                                 onClick={() => {
                                                     openMobileMenu('random');
@@ -108,7 +108,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                                                     <Link href="/coming-soon">Writing Test</Link>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                         <li>
                                             <Link

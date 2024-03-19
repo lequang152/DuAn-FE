@@ -204,9 +204,9 @@ function Popup({ idSurveyDetails }: PropsSurvey) {
                 <div>
                     <div>
                         <div className="text-center text-4xl text-black font-bold">
-                            Chào mừng bạn đến với bài kiểm tra định kỳ của
+                            Chào mừng bạn đến với bài kiểm tra của
                         </div>
-                        <div className="text-center text-4xl text-[#027102] font-bold mb-4">ODIN LANGUAGE ACADEMY</div>
+                        <div className="text-center text-4xl text-[#2196f3] font-bold mb-4">ENGMASTER HUB</div>
                     </div>
                     <div className="text-black font-semibold text-xl mb-3">
                         Để giúp bạn hoàn thành bài kiểm tra tốt nhất, bạn hãy đọc những lưu ý sau:
@@ -234,7 +234,7 @@ function Popup({ idSurveyDetails }: PropsSurvey) {
                         </li>
                     </ol>
                     <div className={styles.buttonStart}>
-                        <button className="btn btn-outline-success" color="error" onClick={handleCreateInputExam}>
+                        <button className="btn btn-outline-primary" color="error" onClick={handleCreateInputExam}>
                             Click Here To Start!
                         </button>
                     </div>
