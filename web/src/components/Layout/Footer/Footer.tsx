@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                                 <div className="footer__widget mb-50">
                                     <div className="footer__widget-head mb-22 pt-[5px]">
                                         <div className="footer__logo">
-                                            <Link href="/">
+                                            {/* <Link href="/">
                                                 <Image
                                                     width={500}
                                                     height={64}
@@ -22,11 +22,11 @@ const Footer: React.FC = () => {
                                                     alt="img not found"
                                                     style={{ width: "70%" }}
                                                 />
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                     </div>
                                     <div className="footer__widget-body">
-                                        <p>Odin Language Academy</p>
+                                        <p>ENGMASTER HUB</p>
 
                                         <div className="footer__social">
                                             <ul>
@@ -68,19 +68,19 @@ const Footer: React.FC = () => {
                                         <div className="footer__link">
                                             <ul>
                                                 <li>
-                                                    <Link href="/about">ODIN Đông Tác</Link>
+                                                    <Link href="/about">HUB Đông Tác</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="">ODIN Trần Quốc Vượng</Link>
+                                                    <Link href="">HUB Trần Quốc Vượng</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/event-details">ODIN Nguyễn Văn Lộc</Link>
+                                                    <Link href="/event-details">HUB Nguyễn Văn Lộc</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/instructor">ODIN Trần Đại Nghĩa</Link>
+                                                    <Link href="/instructor">HUB Trần Đại Nghĩa</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/instructor">ODIN Phố Vọng</Link>
+                                                    <Link href="/instructor">HUB Phố Vọng</Link>
                                                 </li>
                                                 {/* <li>
                                                     <Link href="/instructor">Become a Teacher</Link>
@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
                                 <div className="footer__widget mb-50">
                                     <div className="footer__widget-head mb-22">
                                         <h3 className="footer__widget-title">
-                                            CTCP Phát Triển Giáo Dục và Đào Tạo ODIN
+                                            CTCP Phát Triển Giáo Dục và Đào Tạo HUB
                                         </h3>
                                     </div>
                                     <div className="footer__widget-body">
@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
                                                 <br />
                                                 <li>
                                                     <Link href="mailto:anhdp.odin@gmail.com">
-                                                        Email: anhdp.odin@gmail.com
+                                                        Email: anhdp.hub@gmail.com
                                                     </Link>
                                                 </li>
                                                 <br />

@@ -95,14 +95,14 @@ const Hero: React.FC = () => {
                                             <h4>“When I Grow Up” Spirit Day!</h4>
                                         </div>
                                     </div>
-                                    <div className="hero__thumb-sm mt-12 d-none d-lg-block">
+                                    {/* <div className="hero__thumb-sm mt-12 d-none d-lg-block">
                                         <Image
                                             width={200}
                                             height={240}
                                             src="/assets/img/hero/hero-sm-1.png"
                                             alt="img not found"
                                         />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
