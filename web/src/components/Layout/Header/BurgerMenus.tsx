@@ -68,7 +68,7 @@ const BurgerMenus: React.FC<BurgerMenusProps> = ({ setMenuOpen, menuOpen }) => {
                 <div className="sidebar__content">
                     <div className="logo mb-40">
                         <Link href="/">
-                            <Image src="/assets/img/logo/odin-logo-square.png" alt="logo" width={300} height={339} />
+                            <Image src="/assets/img/logo/logo-odin1.png" alt="logo" width={300} height={339} />
                         </Link>
                     </div>
                     <div className="mm-menu">

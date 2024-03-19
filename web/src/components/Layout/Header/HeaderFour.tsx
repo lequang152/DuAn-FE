@@ -54,9 +54,9 @@ const HeaderFour: React.FC = () => {
                                     <div className="logo">
                                         <Link href="/">
                                             <Image
-                                                width={500}
-                                                height={64}
-                                                src="/assets/img/logo/odin-logo-login.png"
+                                                width={100}
+                                                height={44}
+                                                src="/assets/img/logo/logo-odin1.png"
                                                 alt="logo"
                                             />
                                         </Link>
@@ -71,7 +71,7 @@ const HeaderFour: React.FC = () => {
                                                 <li className="has-dropdown1">
                                                     <Link href="/">Home</Link>
                                                 </li>
-                                               
+
                                             </ul>
                                         </nav>
                                     </div>

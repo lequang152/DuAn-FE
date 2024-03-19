@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                                     <h3 className="hero__title">
                                         <span>CÔNG NGHỆ</span>
                                         <span className="yellow-shape">
-                                            BBST{" "}
+                                            Thi thử IELTS{" "}
                                             <Image
                                                 width={214}
                                                 height={17}
@@ -45,10 +45,10 @@ const Hero: React.FC = () => {
                                                 alt="yellow-shape"
                                             />
                                         </span>
-                                        Anh Văn siêu tốc
+                                        siêu tốc
                                     </h3>
                                     <p>
-                                        ĐƯỢC VĂN PHÒNG CHÍNH PHỦ GIỚI THIỆU TỚI BỘ GIÁO DỤC & ĐÀO TẠO VÀ UỶ BAN QUỐC GIA
+                                        KHUYẾN NGHỊ BỞI VĂN PHÒNG CHÍNH PHỦ CHO BỘ GIÁO DỤC & ĐÀO TẠO VÀ UỶ BAN QUỐC GIA
                                     </p>
                                     <Link
                                         href="/"
@@ -91,8 +91,8 @@ const Hero: React.FC = () => {
                                             height={400}
                                         />
                                         <div className="hero__quote hero__quote-animation">
-                                            <span>Tomorrow is our</span>
-                                            <h4>“When I Grow Up” Spirit Day!</h4>
+                                            <span>Embracing the future on our</span>
+                                            <h4>“Dreams of the Future” Spirit Day!</h4>
                                         </div>
                                     </div>
                                     {/* <div className="hero__thumb-sm mt-12 d-none d-lg-block">
