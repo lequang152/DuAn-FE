@@ -64,7 +64,7 @@ function NoteBook() {
                 )}
             >
                 <button
-                    className="px-4 py-1 flex items-center rounded bg-green-700"
+                    className="px-4 py-1 flex items-center rounded bg-[#2196f3]"
                     onClick={toggleDrawer}
                     onMouseEnter={() => {
                         setIsPopoverOpen(true);

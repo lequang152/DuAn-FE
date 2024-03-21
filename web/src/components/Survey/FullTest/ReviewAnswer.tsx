@@ -48,6 +48,18 @@ function ReviewAnswer({ params }: { params: Params }) {
         }
     }, []);
 
+    function removeHtmlTags(input: string): string {
+        let result = input.replace(/<p[^>]*>|<\/p>/gi, '');
+
+        result = result.replace(/<br[^>]*>|<\/br>/gi, '');
+
+        if (result.length > 30) {
+            result = result.substring(0, 30) + '...';
+        }
+
+        return result;
+    }
+
     if (GlobalVariableInstance.getIsSubmitted()) {
         if (GlobalVariableInstance.getScoringType() === 'scoring_with_answers') {
             return (
@@ -60,8 +72,8 @@ function ReviewAnswer({ params }: { params: Params }) {
                             <div className="text-cyan-900 font-bold">{`${correctAns}/${totalAns}`}</div>
                         </div>
                         <div
-                            className="text-green-700 bg-green-100 font-bold text-2xl border-8 
-                border-green-600 w-36 h-36 flex flex-col items-center justify-center rounded-full"
+                            className="text-[#3f51b5] bg-[#d6f1fd] font-bold text-2xl border-8 
+                border-[#0060ad] w-36 h-36 flex flex-col items-center justify-center rounded-full"
                         >
                             {Number(GlobalVariableInstance.getReviewAnswerData().percentage.toFixed(2))}
                         </div>
@@ -119,7 +131,7 @@ function ReviewAnswer({ params }: { params: Params }) {
                                                     key={index}
                                                 >
                                                     <span
-                                                        className={`font-bold rounded-full bg-green-600 text-white h-7
+                                                        className={`font-bold rounded-full bg-[#03a9f4] text-white h-7
                                   flex items-center justify-center
                                   ${question[id]?.label.length > 2 ? 'w-[60px]' : 'w-7'}`}
                                                     >
@@ -135,7 +147,7 @@ function ReviewAnswer({ params }: { params: Params }) {
                                                                   ]?.userAnswer.map((item: string, index: number) => (
                                                                       <React.Fragment key={index}>
                                                                           {index > 0 && <span> - </span>}
-                                                                          <span>{item}</span>
+                                                                          <span>{removeHtmlTags(item)}</span>
                                                                       </React.Fragment>
                                                                   ))}
                                                         </span>
@@ -157,7 +169,7 @@ function ReviewAnswer({ params }: { params: Params }) {
                     <div className="mt-8 flex items-center justify-center">
                         <Button
                             style={{
-                                backgroundColor: 'green',
+                                backgroundColor: '#03a9f4',
                                 color: 'white',
                                 fontWeight: 800,
                                 paddingLeft: 20,

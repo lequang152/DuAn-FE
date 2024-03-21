@@ -149,6 +149,14 @@ const HeaderTest = ({
 
     const dispatch = useDispatch<AppDispatch>();
 
+    function removeHtmlTags(input: string): string {
+        let result = input.replace(/<p[^>]*>|<\/p>/gi, '');
+
+        result = result.replace(/<br[^>]*>|<\/br>/gi, '');
+
+        return result;
+    }
+
     return isSubmit ? (
         <Spinner />
     ) : (
@@ -355,10 +363,12 @@ const HeaderTest = ({
                                                                                     userAnswer[id] === undefined
                                                                                         ? ''
                                                                                         : userAnswer[id].length < 30
-                                                                                        ? userAnswer[id]
-                                                                                        : userAnswer[id].substring(
-                                                                                              0,
-                                                                                              30,
+                                                                                        ? removeHtmlTags(userAnswer[id])
+                                                                                        : removeHtmlTags(
+                                                                                              userAnswer[id].substring(
+                                                                                                  0,
+                                                                                                  30,
+                                                                                              ),
                                                                                           ) + '...'
                                                                                 }`}
                                                                             </span>
@@ -381,7 +391,7 @@ const HeaderTest = ({
 
                     {/* Submit */}
                     <button
-                        className={'mr-2 px-3 py-1 rounded bg-green-600 hover:bg-red-1/80 flex items-center'}
+                        className={'mr-2 px-3 py-1 rounded bg-[#2196f3] hover:bg-[#064e87] flex items-center'}
                         onClick={onClickSubmit}
                     >
                         Submit

@@ -1,6 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-import React from "react"
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const Hero: React.FC = () => {
     return (
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                                     <h3 className="hero__title">
                                         <span>CÔNG NGHỆ</span>
                                         <span className="yellow-shape">
-                                            Thi thử IELTS{" "}
+                                            Thi thử IELTS{' '}
                                             <Image
                                                 width={214}
                                                 height={17}
@@ -45,15 +45,8 @@ const Hero: React.FC = () => {
                                                 alt="yellow-shape"
                                             />
                                         </span>
-                                        siêu tốc
                                     </h3>
-                                    <p>
-                                        KHUYẾN NGHỊ BỞI VĂN PHÒNG CHÍNH PHỦ CHO BỘ GIÁO DỤC & ĐÀO TẠO VÀ UỶ BAN QUỐC GIA
-                                    </p>
-                                    <Link
-                                        href="/"
-                                        className="e-btn"
-                                    >
+                                    <Link href="/" className="e-btn">
                                         Xem tất cả khoá học
                                     </Link>
                                 </div>
@@ -110,7 +103,7 @@ const Hero: React.FC = () => {
                 </div>
             </section>
         </main>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;

@@ -249,7 +249,7 @@ const SignUpMain: React.FC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="sign__action d-flex justify-content-between mb-30">
+                                        <div className="sign__action d-flex justify-content-center mb-30">
                                             <div className="sign__agree d-flex align-items-center">
                                                 <input
                                                     className="m-check-input"
