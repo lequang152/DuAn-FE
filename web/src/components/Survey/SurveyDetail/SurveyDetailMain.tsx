@@ -137,10 +137,10 @@ const SurveyDetailMain = ({ idSurveyDetails }: PropsSurvey) => {
                                             : new Date().toLocaleDateString()}
                                     </p>
                                 </div>
-                                <div className="course__update mr-10 mb-30">
+                                {/* <div className="course__update mr-10 mb-30">
                                     <h5>Number of questions:</h5>
                                     <p>{currentSurvey.numberOfQuestions}</p>
-                                </div>
+                                </div> */}
                                 <div className="course__rating-2 mb-30">
                                     <h5>User Attempts:</h5>
                                     <div className="course__rating-inner d-flex align-items-center">

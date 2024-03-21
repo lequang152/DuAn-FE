@@ -202,13 +202,13 @@ const SurveyListMain: React.FC = () => {
                                                                 <div className="course__right">
                                                                     <div className="course__content course__content-3 ">
                                                                         <div className="course__meta d-flex align-items-center">
-                                                                            <div className="course__lesson mr-20 flex flex-row justify-center gap-2 items-center">
+                                                                            {/* <div className="course__lesson mr-20 flex flex-row justify-center gap-2 items-center">
                                                                                 <MenuBookIcon className="text-[#2196f3]" />
                                                                                 <span className="flex flex-row  justify-center">
                                                                                     {' '}
                                                                                     {item.numberOfQuestions} questions
                                                                                 </span>
-                                                                            </div>
+                                                                            </div> */}
                                                                             <div className="course__rating flex flex-row  justify-center gap-2 items-center">
                                                                                 <AccessAlarmIcon className="text-[#ff9800]" />
                                                                                 <span className="flex flex-row  justify-center">

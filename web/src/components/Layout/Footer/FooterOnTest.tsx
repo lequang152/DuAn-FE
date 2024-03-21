@@ -137,7 +137,7 @@ const FooterTest = ({ setPage, hasNextPage, currentPage, changeSection, isLimitS
                                 saveAnswersToBackend();
                             }
                         }}
-                        className="group ml-2 px-8 py-1 rounded bg-green-700 flex items-center disabled:opacity-50 disabled:cursor-default"
+                        className="group ml-2 px-8 py-1 rounded bg-[#2196f3] flex items-center disabled:opacity-50 disabled:cursor-default"
                     >
                         <ArrowBackIcon className="" />
                     </button>
@@ -166,7 +166,7 @@ const FooterTest = ({ setPage, hasNextPage, currentPage, changeSection, isLimitS
                                 saveAnswersToBackend();
                             }
                         }}
-                        className="group ml-2 px-8 py-1 rounded bg-green-700 flex items-center disabled:opacity-50 disabled:cursor-default"
+                        className="group ml-2 px-8 py-1 rounded bg-[#2196f3] flex items-center disabled:opacity-50 disabled:cursor-default"
                     >
                         <ArrowForwardIcon className="" />
                     </button>

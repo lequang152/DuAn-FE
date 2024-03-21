@@ -23,8 +23,8 @@ function QuestionPalette() {
     const styleNormal = {
         backgroundColor: '',
         border: '1px solid',
-        borderColor: 'green',
-        color: 'green',
+        borderColor: '#2196f3',
+        color: '#2196f3',
         padding: '5px',
         display: 'flex',
         alignItems: 'center',
@@ -32,9 +32,9 @@ function QuestionPalette() {
     };
 
     const styleDone = {
-        backgroundColor: '#15803D',
+        backgroundColor: '#2e85cb',
         border: '1px solid',
-        borderColor: 'green',
+        borderColor: '#2e85cb',
         color: 'white',
         padding: '5px',
         display: 'flex',
@@ -45,32 +45,32 @@ function QuestionPalette() {
     const GlobalVariableInstance = GlobalVariable.getInstance();
     const getQuestionId = GlobalVariableInstance.getQuestionID();
 
-  const handleButtonFocus = (id: number) => {
-    const inputElements = document.getElementsByName(`${id}`);
-    if (inputElements && inputElements.length > 0) {
-      const parentElement = inputElements[0].closest('li');
-      if (parentElement) {
-        parentElement.classList.add(styles.highlight);
-        parentElement.scrollIntoView({ behavior: 'smooth' });
-        setTimeout(() => {
-          parentElement.classList.remove(styles.highlight);
-        }, 500);
-        //inputElements[0].focus();
-      } 
-    } else {
-      const divElement = document.getElementById(`id-${id}`)
-      if(divElement) {
-        const parentElement = divElement.closest('li');
-        if (parentElement) {
-          parentElement.classList.add(styles.highlight);
-          parentElement.scrollIntoView({ behavior: 'smooth' });
-          setTimeout(() => {
-            parentElement.classList.remove(styles.highlight);
-          }, 500);
-        } 
-      }
-    }
-  }
+    const handleButtonFocus = (id: number) => {
+        const inputElements = document.getElementsByName(`${id}`);
+        if (inputElements && inputElements.length > 0) {
+            const parentElement = inputElements[0].closest('li');
+            if (parentElement) {
+                parentElement.classList.add(styles.highlight);
+                parentElement.scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => {
+                    parentElement.classList.remove(styles.highlight);
+                }, 500);
+                //inputElements[0].focus();
+            }
+        } else {
+            const divElement = document.getElementById(`id-${id}`);
+            if (divElement) {
+                const parentElement = divElement.closest('li');
+                if (parentElement) {
+                    parentElement.classList.add(styles.highlight);
+                    parentElement.scrollIntoView({ behavior: 'smooth' });
+                    setTimeout(() => {
+                        parentElement.classList.remove(styles.highlight);
+                    }, 500);
+                }
+            }
+        }
+    };
 
     // when questionID length change, isRender change state
     const [isRender, setIsRender] = useState(getQuestionId.length);
